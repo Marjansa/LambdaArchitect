@@ -1,0 +1,16 @@
+1. **Batch Layer:**
+   - Processes historical data in large batches.
+   - Enables comprehensive and accurate analysis of the entire dataset.
+   - Results are stored in the serving layer for querying.
+
+2. **Speed Layer:**
+   - Handles real-time data processing.
+   - Provides low-latency updates for recent data.
+   - Results may be approximate due to the lack of a comprehensive view.
+
+3. **Serving Layer:**
+   - Stores processed data from both batch and speed layers.
+   - Merges batch and real-time results to offer a unified view.
+   - Serves data to end-users or applications for querying.
+
+   ![Alt text](image-1.png)
