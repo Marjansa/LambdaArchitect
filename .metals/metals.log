@@ -84,3 +84,7 @@ Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException:
 	... 9 more
 
 2023.08.05 17:40:47 WARN  no build target for: /workspaces/LambdaArchitect/Lambda Arcgitecture with Spark/Batch Layer with Apache Spark.scala
+2023.08.05 17:41:13 INFO  no build target found for /workspaces/LambdaArchitect/Lambda Arcgitecture with Spark/Batch Layer with Apache Spark.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.05 17:41:15 INFO  time: code lens generation in 28s
+2023.08.05 17:42:05 WARN  no build target for: /workspaces/LambdaArchitect/Lambda Arcgitecture with Spark/SPEed layer with Spark streaming.scala
+2023.08.05 17:43:21 WARN  no build target for: /workspaces/LambdaArchitect/Lambda Arcgitecture with Spark/SPEed layer with Spark streaming.scala
