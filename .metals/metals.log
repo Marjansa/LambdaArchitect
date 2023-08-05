@@ -1,0 +1,30 @@
+2023.08.05 16:42:12 INFO  Started: Metals version 1.0.0 in folders '/workspaces/LambdaArchitect' for client Visual Studio Code 1.81.0.
+Aug 05, 2023 4:42:12 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 05, 2023 4:42:12 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 05, 2023 4:42:12 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 05, 2023 4:42:13 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/workspaces/LambdaArchitect/.metals/metals (H2 2.1)
+Aug 05, 2023 4:42:13 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Aug 05, 2023 4:42:13 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.020s)
+Aug 05, 2023 4:42:13 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Aug 05, 2023 4:42:13 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Aug 05, 2023 4:42:13 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Aug 05, 2023 4:42:13 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Aug 05, 2023 4:42:13 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Aug 05, 2023 4:42:13 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Aug 05, 2023 4:42:13 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.046s)
+2023.08.05 16:42:13 INFO  time: initialize in 1.06s
+2023.08.05 16:42:16 WARN  Build server is not auto-connectable.
+2023.08.05 16:42:16 WARN  no build tool detected in workspace '/workspaces/LambdaArchitect'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
