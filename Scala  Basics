@@ -1,0 +1,28 @@
+
+//Create a new Scala file, for example, HelloScala.scala, and add the following code:
+object HelloScala {
+  def main(args: Array[String]): Unit = {
+    println("Hello, Scala!")
+  }
+}
+
+//Simple Class:
+//A simple class is a basic class with fields and methods. It does not have any special features like those provided by case classes or abstract classes.
+class Person(name: String, age: Int) {
+  def greet(): Unit = {
+    println(s"Hello, my name is $name and I am $age years old.")
+  }
+}
+
+// Usage:
+val john = new Person("John Doe", 30)
+john.greet() // Output: Hello, my name is John Doe and I am 30 years old.
+
+//Case Class:
+//A case class is a special class optimized for immutable data. It automatically provides methods for equality comparison, pattern matching, and more.
+case class Point(x: Int, y: Int)
+
+// Usage:
+val point1 = Point(2, 3)
+val point2 = Point(2, 3)
+println(point1 == point2) // Output: true (due to auto-generated equality method)
