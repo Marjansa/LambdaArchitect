@@ -1,0 +1,33 @@
+AWSTemplateFormatVersion: 2010-09-09
+
+Transform: AWS::Serverless-2016-10-31
+
+Description: Carved Rocket Fitness Application that generates discount code
+
+Resources:
+
+  generateDiscountFunction:
+
+    Type: AWS::Serverless::Function
+
+    Properties:
+
+      Handler: index.lambda_handler
+
+      AutoPublishAlias: live
+
+      CodeUri: lambda_function/
+
+      Runtime: python3.8
+
+      FunctionName: generate-discount
+
+      MemorySize: 256
+
+      Timeout: 4
+
+      Description: Carved Rock Fitness Discount Function
+
+      DeploymentPreference:
+
+        Type: Linear10PercentEvery1Minute
